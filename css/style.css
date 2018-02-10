@@ -27,10 +27,10 @@ a:visited{
 	color: #0f949b;
 }
 a:hover{
-	color:#0f949b;
+	color: #0f949b;
 }
 a:active{
-	color:#16d6e0;
+	color: #16d6e0;
 }
 a:hover{
 	text-decoration: underline;
@@ -196,6 +196,13 @@ header p{
 	float:left;
 	width: 33.33333%;
 	height: 100%;
+
+
+}
+
+#works .works-box a{
+	position:relative;
+	display:block;
 }
 
 #works .works-box a .works-box-inner{
@@ -207,7 +214,7 @@ header p{
 	color: #fff;
 	background-color: rgba(0,0,0,.7);
 }
-
+ 
 #works .works-box a .works-box-inner div{
 	position: absolute;
 	top:0;
@@ -231,7 +238,7 @@ header p{
 	margin-bottom: 15px;
 }
 
-works .works-box a .works-box-innner .button-readmore{
+#works .works-box a .works-box-inner .button-readmore{
 	font-size: 1rem;
 	font-weight: bold;
 	display: block;
@@ -243,7 +250,7 @@ works .works-box a .works-box-innner .button-readmore{
 	-webkit-border-radius: 4px;
 		moz-border-radius: 4px;
 			border-radius: 4px;
-	background-color: #14c0co;
+	background-color: #14c0c9;
 }
 
 #works .works-box a .works-box-inner .button-readmore:hover{
@@ -257,7 +264,8 @@ works .works-box a .works-box-innner .button-readmore{
 
 #works .works-box img{
 	display: block;
-	max-width: 100%;
+	width: 100%;
+		max-height:36.5rem;
 }
 
 #works::after{
